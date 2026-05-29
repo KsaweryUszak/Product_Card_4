@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121417;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  color: white;
+}
+
+.card {
+  background-color: #1f2630;
+  width: 350px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.star,
+.thank-you-img {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  color: #959eac;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.rating-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: #262f38;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rating-btn:hover {
+  background-color: orange;
+}
+
+.rating-btn.active {
+  background-color: white;
+  color: black;
+}
+
+#submit-btn {
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  border-radius: 30px;
+
+  background-color: orange;
+  color: white;
+
+  font-weight: bold;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+#submit-btn:hover {
+  background-color: white;
+  color: orange;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected-rating {
+  background-color: #262f38;
+  color: orange;
+
+  padding: 10px;
+  border-radius: 20px;
+
+  text-align: center;
+}
